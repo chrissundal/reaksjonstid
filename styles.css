@@ -1,0 +1,73 @@
+.lightCircle {
+    border: 2px solid black;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background-color: yellow;
+    cursor: pointer;
+    transition: 0.2s ease;
+    margin: 20px;
+}
+
+.lightCircle:hover {
+    transform: scale(1.07);
+}
+
+.mainCircle {
+    border: 2px solid black;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    transition: 0.2s ease;
+    margin: 20px;
+}
+
+.mainCircle:hover {
+    transform: scale(1.07);
+}
+
+.grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.innerGrid {
+    display: grid;
+    grid-template-columns: repeat(5, 2fr);
+    align-items: center;
+    background-color: rgb(173, 216, 230);
+    border-radius: 20px;
+    border: 1px solid black;
+    box-shadow: 10px 10px 10px black;
+}
+
+.popup {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.innerPopUp {
+    color: black;
+    text-shadow: 2px 2px 2px red;
+
+    font-size: 50px;
+    text-align: center;
+    height: 70px;
+    width: 800px;
+}
+
+button {
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: large;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+button:hover {
+    transform: scale(1.07);
+}
